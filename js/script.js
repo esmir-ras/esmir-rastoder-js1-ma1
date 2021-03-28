@@ -1,4 +1,4 @@
-
+// JAVASCRIPT MA1 ESMIR RASTODER
 
 // Question 1
 
@@ -10,10 +10,6 @@ const cat = {
 };
 
 
-
-
-
-
 // Question 2
 
 var heading = document.querySelector("h3");
@@ -21,12 +17,18 @@ var heading = document.querySelector("h3");
 heading.innerHTML = "Updated heading";
 
 // Question 3
+
 var heading = document.querySelector("h3");
 
 heading.style.fontSize = "2em";
 
 // Question 4
 
+console.dir(heading.className);
+
+heading.className = "subheading";
+
+console.log(heading.className)
 
 // Question 5
 
@@ -96,6 +98,5 @@ function createCats(cats) {
   const catsContainer = document.querySelector(".cat-container");
   catsContainer.innerHTML = catsHtml;
 
-  // Playing
-
+  
  
